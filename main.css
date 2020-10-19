@@ -1,8 +1,7 @@
 .menu { grid-area: menu; }
 .main { grid-area: main; }
     
-.grid-container {
-  
+.grid-container { 
     display: grid;
     grid-template-areas:
       'menu main main main main main'
@@ -16,4 +15,12 @@
     max-width: 100%;
     width: 100vw;
     z-index: -1;
-  }
+        }
+  * {
+      margin:0
+    }
+
+  * {
+      box-sizing: border-box;
+    }
+    
