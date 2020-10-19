@@ -1,0 +1,19 @@
+.menu { grid-area: menu; }
+.main { grid-area: main; }
+    
+.grid-container {
+  
+    display: grid;
+    grid-template-areas:
+      'menu main main main main main'
+      'menu main main main main main'
+      'menu main main main main main';
+    padding: 10px;
+  }   
+
+  #vid2 {
+    position: fixed;
+    max-width: 100%;
+    width: 100vw;
+    z-index: -1;
+  }
