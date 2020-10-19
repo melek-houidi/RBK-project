@@ -23,7 +23,7 @@ function validate(){
      alert("Wrong Inputs!")
      }
 
-    else if ( username === "melek houidi" && password !== "melekmelek123"){
+    else {
         alert("welcome melek!")
     }
 }
