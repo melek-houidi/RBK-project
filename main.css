@@ -82,3 +82,13 @@
       padding: 100px;
     }
     
+  .element{
+      background-color: rgba(255,255,255,0.8);
+      margin: 0 auto;
+      width:60%;
+    }
+    p{
+      font-size: 40px;
+    }
+  
+  
