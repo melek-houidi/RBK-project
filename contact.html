@@ -1,25 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> About Us</title>
+    <title> Contact Us</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
 </head>
     <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    
+
 <body>
 
     <div class="navbar">
         <a class="active" href="main.html">Home</a>
         <a href="about.html" >About</a>
         <a href="contact.html" >Contact</a>
-        <div class="login-container">
+            <div class="login-container">
           
-            <input type="text" placeholder="Username" name="username">
-            <input type="text" placeholder="Password" name="psw">
-            <button type="submit">Login</button>
-          
+                <input type="text" placeholder="Username" name="username">
+                <input type="text" placeholder="Password" name="psw">
+                <button type="submit">Login</button>
+
+            </div>
+    </div>     
+
+        <div class="container" align="center">
+              <form>
+               <h1> <label for="fname">First Name</label> <br> </h1>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                <br><br><br>
+               <h1> <label for="lname">Last Name</label><br> </h1>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <br><br><br>
+                <h1> <label for="email">email</label><br>  </h1>
+                <input type="email" id="email" name="email" placeholder="Insert your email here">
+                <br><br><br>
+                <h1> <label for="subject">Subject</label><br> </h1>
+                <textarea style="resize: none"  id="subject" name="subject" placeholder="Write the subject.." ></textarea>
+                <br><br><br>
+                <button class="Submit" >submit</button> 
+              </form>
         </div>
-      </div>     
+    <style>
+        body{
+            background-image: url('support.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+          }
+     </style>     
 
 </body>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script src="main.js"></script>
 </html>

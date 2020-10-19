@@ -76,8 +76,9 @@
       background: #ccc;
     }
  
-   class {
-      width: 200px;
-      height: 400px;
-      object-fit: cover;
+    .container {
+      border-radius: none;
+      background-color:none;
+      padding: 100px;
     }
+    
