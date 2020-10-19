@@ -27,3 +27,13 @@ function validate(){
         alert("welcome melek!")
     }
 }
+$("#refresh").button(function(){
+    loca.tion.reload();
+    console.log("to verify");
+  });
+
+  $(document).ready(function(){
+    $('.Post').on('click',function(){
+        alert("we received your message")
+    })
+})

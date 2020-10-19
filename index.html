@@ -7,15 +7,21 @@
 
 </head>
 <body>
+    <h1>HI MELEK</h1>
 
-  <h1>HI MELEK</h1>
-    <div class="container" align="center">  
-        <label for="subject">Type what you want and be free </label>
-        <br> <br>
-             <textarea id='index' style="resize: none"  id="subject" name="subject"  placeholder="Write the subject.." ></textarea>
-             <br>
-                 <button type="button" onclick="alert('♥ thanks for sharing ♥')">Post</button>
+    <div class="container2" align="center">
 
+       <label for="subject">Type what you want and be free </label>
+       <br><br>
+              <input type="text" id="field1" value="Hello World!">
+              <input type="text" id="field2"><br><br>             
+        <button type="button"  onclick="myFunction()" && onclick="alert('♥ thanks for sharing ♥')" > Post </button>    
+     
+            <script>
+                function myFunction() {
+                    document.getElementById("field2").value = document.getElementById("field1").value;
+                }
+             </script>
 
              <style>
                  body{
@@ -23,5 +29,8 @@
                      font-size: 150%;                   
                  }
              </style> 
+    </div>
+          <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+          <script src="main.js"></script>    
 </body>
 </html>
