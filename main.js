@@ -6,16 +6,24 @@ $(document).ready(function(){
 })
 
 function validate(){
-    var email = $("#username").val();
-    var password = $("#psw").val();
-    if ( email === "" && password === ""){
-        alert("Enter your inputs please!")
+    var username= $("#username").val();
     
+    var password = $("#psw").val();
+    if ( username === "" && password === ""){
+    
+        alert("Enter your inputs please!")   
     }
-     else if ( password.length < 5){
+     else if ( password.length < 8){
          alert("Your Password is too short!")
      }
-    else if ( email === "melek" && password !== "melekmelek"){
-        alert("welcome")
+     else if (username === "melek houidi" && password !== "melekmelek123"){
+        alert("Wrong password!")
+     }
+     else if ( username !== "melek houidi" || password !== "melekmelek123"){
+     alert("Wrong Inputs!")
+     }
+
+    else if ( username === "melek houidi" && password !== "melekmelek123"){
+        alert("welcome melek!")
     }
 }
