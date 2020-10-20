@@ -94,6 +94,8 @@
   
   h1{
     margin: 33px;
+    font-family: 'Krona One', sans-serif;
+    margin-bottom: 100px;
   }
   textarea {
     resize: none;
@@ -101,17 +103,29 @@
     padding: 18px;
 }
 input{
-  padding: 8px;
+  padding: 20px;
+    width: 39%;
+    margin-top: 10px;
 }
 
 
 #field2{
   padding: 95px;
-  margin: 130px;
+  margin: 80px;
   margin-left: 85px;
   background-color: lightskyblue;
   border: lightskyblue;
   color: maroon;
   font-size: xx-large;
 
+}
+label{
+  font-family: 'Krona One', sans-serif;
+}
+#psw{
+  padding: 8px;
+  width: 39%;
+  margin-top: 10px;
+  border: none;
+  padding-bottom: 7px;
 }
