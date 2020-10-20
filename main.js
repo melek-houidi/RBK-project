@@ -27,17 +27,14 @@ function validate(){
      
         (alert("welcome melek!" ))
     }
+    document.getElementById("psw").value = '' 
+    document.getElementById("username").value = '' 
 }
-
-
-// $("#refresh").button(function(){
-//     loca.tion.reload();
-//     console.log("to verify");
-//   });
 
   $(document).ready(function(){
     $('.Post').on('click',function(){
         alert("we received your message")
     })
 })
+
 

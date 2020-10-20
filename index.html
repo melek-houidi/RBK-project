@@ -19,9 +19,12 @@
         <button id='button' type="button"  onclick="myFunction()"> Post </button>        
            <script>
                 function myFunction() {
-                    alert('♥ thanks for sharing ♥')
+                    $('#field2').fadeOut(1)
+                  alert('♥ thanks for sharing ♥')
                     document.getElementById("field2").value = document.getElementById("field1").value;
                     document.getElementById("field1").value = ''
+                    $("#field2").fadeIn(2000);
+
                 }
     
              </script>
