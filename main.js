@@ -23,17 +23,21 @@ function validate(){
      alert("Wrong Inputs!")
      }
 
-    else {
-        alert("welcome melek!")
+    else {window.location.replace("file:///C:/Users/RBK/Desktop/RBK-project/index.html");
+     
+        (alert("welcome melek!" ))
     }
 }
-$("#refresh").button(function(){
-    loca.tion.reload();
-    console.log("to verify");
-  });
+
+
+// $("#refresh").button(function(){
+//     loca.tion.reload();
+//     console.log("to verify");
+//   });
 
   $(document).ready(function(){
     $('.Post').on('click',function(){
         alert("we received your message")
     })
 })
+

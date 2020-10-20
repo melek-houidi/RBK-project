@@ -8,15 +8,23 @@
     
     </head>
     <body>
-      <form type='poste'>
-      <div class="navbar">
+       <div class="navbar">
         <a class="active" href="#home">Home</a>
         <a href="about.html" >About</a>
         <a href="contact.html" >Contact</a>
         <div class="login-container">
           <input id='username' type="text" placeholder="Username" name="username">
           <input  id='psw' type="password" placeholder="Password" name="psw">
-            <button type="submit" onclick='validate()'>Login</button>
+            <button onclick='validate()'>Login</button>
+            <script>
+              function myFunction() {
+                  document.getElementById("username").value !== document.getElementById("psw").value;
+                  document.getElementById("psw").value = ''
+                  document.getElementById("username").value = ''
+              }
+  
+           </script>
+
           </div>
         </div>     
       

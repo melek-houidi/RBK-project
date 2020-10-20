@@ -105,26 +105,13 @@ input{
 }
 
 
-ul{
-  margin: 0;
-  padding: 0;       
-  list-style: none;
-  overflow: hidden;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
-  border-bottom: 1px solid green; 
-}
+#field2{
+  padding: 95px;
+  margin: 130px;
+  margin-left: 85px;
+  background-color: skyblue;
+  border: skyblue;
+  color: maroon;
+  font-size: xx-large;
 
-ul li{
-  float: left;   
-  margin-right: 10px;
-}
-
-ul li a{
-  text-decoration: none;
-  display: block;
-}
-
-ul li a.active{
-  border-bottom: 5px solid red;    
 }

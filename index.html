@@ -14,13 +14,16 @@
        <label for="subject">Type what you want and be free </label>
        <br><br>
               <input type="text" id="field1" value="">
-              <input type="text" id="field2"><br><br>                  
- <!-- didnt wirkk !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->      
-        <button type="button"  onclick="myFunction()" && onclick="alert('♥ thanks for sharing ♥')" > Post </button>        
+              <br><br>
+                             
+        <button id='button' type="button"  onclick="myFunction()"> Post </button>        
            <script>
                 function myFunction() {
+                    alert('♥ thanks for sharing ♥')
                     document.getElementById("field2").value = document.getElementById("field1").value;
+                    document.getElementById("field1").value = ''
                 }
+    
              </script>
 
              <style>
@@ -28,8 +31,10 @@
                      background-color:lightskyblue;
                      font-size: 150%;                   
                  }
-             </style> 
+             </style>
     </div>
+      <div> <input type="text" id="field2"> <br><br> </div>
+
           <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
           <script src="main.js"></script>    
 </body>
