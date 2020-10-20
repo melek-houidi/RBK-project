@@ -129,3 +129,11 @@ label{
   border: none;
   padding-bottom: 7px;
 }
+
+#put h1{
+  margin-bottom: 30px;
+}
+.border{
+  width: 20%;
+  height: 46px;
+}
